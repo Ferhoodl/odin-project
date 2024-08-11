@@ -1,0 +1,22 @@
+html{
+    background-color: lightblue;
+}
+.title{
+    font-weight:strong;
+}
+.list-title{
+    color:purple;
+    padding:5;
+}
+.list-item{
+    color:gray;
+}
+.list-item.GOAT{
+    color:gold;
+}
+#recipes-items{
+    margin:5px;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+}
