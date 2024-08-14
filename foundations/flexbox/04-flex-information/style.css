@@ -24,3 +24,27 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.images{
+  display:flex;
+}
+
+
+
+body{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.card{
+  margin: auto 52px;
+  width:200px;
+  align-items:center;
+  text-align:center;
+}
+
+
+.title{
+  margin-bottom:32px;
+}
