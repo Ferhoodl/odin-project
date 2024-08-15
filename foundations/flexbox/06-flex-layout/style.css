@@ -22,5 +22,49 @@ input {
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
+  margin:10px;
   width: 400px;
+}
+
+body{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+ul{
+  list-style:none;
+  margin:16px;
+  padding:0
+}
+
+.header, .footer{
+  display:flex;
+  justify-content:space-between;
+}
+
+.right-links, .left-links{
+  display:flex;
+  gap:16px;
+}
+
+.content{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:5px;
+}
+
+a{
+  color:gray;
+  text-decoration:none;
+}
+
+.footer{
+  background-color:lightgrey;
+}
+
+button{
+  padding:8px 16px;
 }
