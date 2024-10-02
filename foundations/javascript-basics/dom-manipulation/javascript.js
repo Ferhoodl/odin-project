@@ -26,3 +26,34 @@ container.appendChild(header);
 divider.appendChild(subHeader);
 divider.appendChild(subParagraph);
 container.appendChild(divider);
+
+//---------------------- buttons after here
+
+
+const btn = document.querySelector("#btn");
+btn.onclick = () => alert("Hello World");
+
+const btn2 = document.querySelector("#btn2");
+btn2.addEventListener("click", () => {
+	alert("Hello World");
+});
+
+const btn3 = document.querySelector("#btn3");
+btn3.addEventListener("click", function (e) {
+	console.log(e.target);
+});
+
+btn3.addEventListener("click", function(e) {
+	e.target.style.background = "blue";
+});
+
+
+	
+const btnContainer = document.querySelector("#btnContainer");
+const buttons = document.querySelectorAll("button");
+
+buttons.forEach((button) => {
+	button.addEventListener("click", () => {
+		alert(button.id);
+	});
+});
